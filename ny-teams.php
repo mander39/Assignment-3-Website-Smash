@@ -2,11 +2,12 @@
 <html>
 <head>
 	<title>Assignment 3: Website Smash | Team Seoul</title>
+	<link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body lass="container">
 	<h1>Important New York Sports Teams</h1>
 	<article>
-		<h2>Introduction</h2>
+		<h2>More Information</h2>
 		<p>These teams are prominent New York sports teams. They all compete in the highest professional leagues for their respective sport. All three of these teams are over 50 years old and are among the most profitable teams in each of their respective sport. Although all of the teams represent New York, the Jets home stadium is location in Rutherford, New Jersey.</p>
 	</article>
 	<article>

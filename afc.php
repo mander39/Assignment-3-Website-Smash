@@ -2,8 +2,9 @@
 <html>
 <head>
 	<title>Assignment 3: Website Smash | Team Seoul</title>
+	<link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="container">
 	<h1>American Football Conference Divisions</h1>
 	<article>
 		<h2>More Information</h2>
