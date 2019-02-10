@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Assignment 3: Website Smash | Team Seoul</title>
+	<title>Assignment 3: Website Smash | New York Sports Team | Team Seoul</title>
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="container">
 	<header>
 		<h1>Important New York Sports Teams</h1>
 	</header>
-	<nav class="menu">
-		<ul>
-			<li><a href="index.php">Home</a></li>
-			<li><a href="games.php">Looter Shooters</a></li>
-			<li><a href="afc.php">AFC Divisions</a></li>
-			<li><a href="ny-teams.php">NY Teams</a></li>
-		</ul>
-	</nav>
+		<?php include "inc/navigation.inc"; ?>
 	<article>
 		<h2>More Information</h2>
 		<p>These teams are prominent New York sports teams. They all compete in the highest professional leagues for their respective sport. All three of these teams are over 50 years old and are among the most profitable teams in each of their respective sport. Although all of the teams represent New York, the Jets home stadium is location in Rutherford, New Jersey.</p>
@@ -63,5 +56,7 @@
 		<h3>Championships</h3>
 		<p> It was not until the late 1960s when Red Holzman became head coach that the Knicks began to regain their former dominance. Holzman successfully guided the Knicks to two NBA championships, in 1970 and 1973. The Knicks of the 1980s had mixed success that included six playoff appearances; however, they failed to participate in the NBA Finals.</p>
 	</article>
+	<script src="//code.jquery.com/jquery.js"></script>
+		<script src="js/menu-highlighter.js"></script>
 </body>
 </html>

@@ -1,3 +1,7 @@
+.is-current {
+	background-color: red;
+}
+
 h1 {
 
 	font-family: Comic Sans MS;
@@ -35,4 +39,18 @@ h3 {
 }
 .row {
 	display: flex;
+}
+
+
+nav ul{
+	font-family: Comic Sans MS;
+	display: flex;
+	justify-content: flex-end;
+	list-style-type: none;
+
+}
+
+
+nav li{
+	margin-left:20px;
 }

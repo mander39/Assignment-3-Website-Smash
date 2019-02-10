@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Assignment 3: Website Smash | Team Seoul</title>
+	<title>Assignment 3: Website Smash | Homepage | Team Seoul</title>
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="container">
 	<header>
 		<h1>HOME PAGE</h1>
 	</header>
-	<nav class="menu">
-		<ul>
-			<li><a href="index.php">Home</a></li>
-			<li><a href="games.php">Looter Shooters</a></li>
-			<li><a href="afc.php">AFC Divisions</a></li>
-			<li><a href="ny-teams.php">NY Teams</a></li>
-		</ul>
+		<?php include "inc/navigation.inc"; ?>
 	</nav>
 	<div class="row">
 		<div class="column">
@@ -28,6 +22,9 @@
 		</div>
 	</div>
 	<p>To learn more about a specific topic, either click on its image or on the corresponding tab on the navigation bar!</p>
+	<script src="//code.jquery.com/jquery.js"></script>
+		<script src="js/menu-highlighter.js"></script>
 	
 </body>
+
 </html>
