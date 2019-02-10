@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Assignment 3: Website Smash | Team Seoul</title>
+	<title>Assignment 3: Website Smash | Looter Shooters | Team Seoul</title>
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="container">
 	<header>
 		<h1>Looter Shooters</h1>
 	</header>
-	<nav class="menu">
-		<ul>
-			<li><a href="index.php">Home</a></li>
-			<li><a href="games.php">Looter Shooters</a></li>
-			<li><a href="afc.php">AFC Divisions</a></li>
-			<li><a href="ny-teams.php">NY Teams</a></li>
-		</ul>
-	</nav>
+		<?php include "inc/navigation.inc"; ?>
 	<article>
 		<h2>More Information</h2>
 		<p>The three topics covered in this are video games of the genre dubbed "looter shooters", in which a player progresses primarily through shooting and killing enemies to obtain better loot that improves the person's character level and stats. Additionally, each game uses a class tree system where players can choose which abilities to invest skill points into, leading to many different varieties of play style. The three games discussed here are Bungie's <em>Destiny 2</em>, BioWare and Electronic Art's <em>Anthem</em>, and Ubisoft's <em>Tom Clancy's The Divison</em>. All three of these games are set in some sort of post-apocalyptic future, although the events of <em>The Division</em> happen in a time period much closer to the present day.</p>
@@ -56,5 +49,7 @@
 		<h3>Plot</h3>
 		<p>On Black Friday 2015, a smallpoxepidemic transmitted by a virus planted on banknotes, sweeps through New York City. The disease, known as "Green Poison" or "The Dollar Flu", causes widespread chaos, and Manhattan is placed under quarantine. The U.S. Government activates sleeper agents in the population who operate for the Strategic Homeland Division, or simply "The Division", to assist emergency responders, now called the Joint Task Force (JTF), in restoring order. In Brooklyn, the protagonist, a Division agent, assists the JTF before planning to depart for the Quarantine zone with fellow agent Faye Lau. However, the VTOL meant to take them there is destroyed in an explosion, killing the Division Commander along with most of the second wave and severely wounding Faye Lau. Arriving in a JTF-commandeered news helicopter instead, the Division agents reclaim the James A. Farley Post Office Building as their base of operations. From there, the agents undertake assignments to rescue important personnel, help in restoring the base of operations to full working capacity and combat criminal groups, such as the Rioters, common street thugs in New York who generally want to take advantage of the quarantine, the Rikers, escapees from Rikers Island, and the Cleaners, insane New York Sanitation workers who wield flamethrowers and believe everyone is infected. In the course of the game, the agent helps rescue important personnel like Dr. Jessica Kandel, Captain Roy Benitez and Paul Rhodes. These personnel head the Medical, Security and Tech wings of the base of operations respectively. Agents also recover a sample of Green Poison. Studying the sample reveals the virus was manufactured and then modified heavily by a controversial biologist named Dr. Gordon Amherst.</p>
 	</article>
+	<script src="//code.jquery.com/jquery.js"></script>
+		<script src="js/menu-highlighter.js"></script>
 </body>
 </html>

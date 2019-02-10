@@ -1,24 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Assignment 3: Website Smash | Team Seoul</title>
+	<title>Assignment 3: Website Smash | AFC Divisions | Team Seoul</title>
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="container">
 	<header>
 		<h1>American Football Conference Divisions</h1>
 	</header>
-	<nav class="menu">
-		<ul>
-			<li><a href="index.php">Home</a></li>
-			<li><a href="games.php">Looter Shooters</a></li>
-			<li><a href="afc.php">AFC Divisions</a></li>
-			<li><a href="ny-teams.php">NY Teams</a></li>
-		</ul>
-	</nav>
+	<?php include "inc/navigation.inc"; ?>
 	<article>
 		<h2>More Information</h2>
-		<p>The 3 divisions below are all a part of the American Football Conference in the National Football League. These conferences all have 4 teams in it and have had a great deal of success when it comes to winning Superbowls. These conferences are all split up by location in the United States.</p>
+		<p>The 3 divisions below are all a part of the American Football Conference in the National Football League. These conferences all have 4 teams in it and have had a great deal of success when it comes to winning Superbowls. These divisions are all split up by location in the United States.</p>
 	</article>
 	<article>
 		<h2>The AFC East</h2>
@@ -56,5 +49,8 @@
 		<p>Entering 2016, the Colts hold a 494–433–7 record and a 22–23 playoff record with two NFL league crowns, four Super Bowl appearances and two wins. The Titans hold a record of 404–442–6 with a playoff record of 14–19, including two AFL championships (as the Houston Oilers) and the loss in Super Bowl XXXIV. The Jaguars hold a 152–184 record and a 5–6 playoff record. The Texans made the playoffs for the first time in their ten-season existence in 2011 and hold a 97–127 record and a 2–3 playoff record.</p>
 		<p>The Colts' Super Bowl XLI victory in 2006 is the only Super Bowl win from the AFC South to date, and the division owns the longest active Super Bowl victory drought. The next ten Super Bowls were won by at least one team in the other seven divisions, including seven victories from seven divisions from 2009 to 2015.</p>
 	</article>
+
+	<script src="//code.jquery.com/jquery.js"></script>
+		<script src="js/menu-highlighter.js"></script>
 </body>
 </html>
