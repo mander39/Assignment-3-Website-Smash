@@ -40,17 +40,23 @@ h3 {
 .row {
 	display: flex;
 }
-
-
-nav ul{
-	font-family: Comic Sans MS;
+.menu ul {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
 	display: flex;
 	justify-content: flex-end;
-	list-style-type: none;
-
+	color: black;
 }
-
-
-nav li{
-	margin-left:20px;
+.menu a {
+	display: block;
+	text-decoration: none;
+	padding: 10px 10px;
+	color: black;
+}
+.menu li { margin-left: 20px; }
+.column a { 
+	text-decoration: none; 
+	color: red;
 }

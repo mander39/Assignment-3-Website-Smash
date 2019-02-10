@@ -11,7 +11,7 @@
 	<?php include "inc/navigation.inc"; ?>
 	<article>
 		<h2>More Information</h2>
-		<p>The 3 divisions below are all a part of the American Football Conference in the National Football League. These conferences all have 4 teams in it and have had a great deal of success when it comes to winning Superbowls. These conferences are all split up by location in the United States.</p>
+		<p>The 3 divisions below are all a part of the American Football Conference in the National Football League. These conferences all have 4 teams in it and have had a great deal of success when it comes to winning Superbowls. These divisions are all split up by location in the United States.</p>
 	</article>
 	<article>
 		<h2>The AFC East</h2>
