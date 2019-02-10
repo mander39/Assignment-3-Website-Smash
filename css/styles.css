@@ -36,3 +36,33 @@ h3 {
 .row {
 	display: flex;
 }
+
+ul {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+a {
+
+	text-decoration: none;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-start;
+
+}
+
+nav li {
+	margin-left: 60px;
+}
+
+a:hover {
+
+	color: red;
+	font-size: 17px;
+}
+
+a:active {
+	background-color: black;
+}
