@@ -12,12 +12,15 @@
 	</nav>
 	<div class="row">
 		<div class="column">
+			<h2>Learn About Looter Shooter Video Games</h2>
 			<a href="games.php"><img src="images/destiny-logo.jpeg" alt="Destiny Logo" style="width:100%"></a>
 		</div>
 		<div class="column">
+			<h2>Learn About the AFC Divisions</h2>
 			<a href="afc.php"><img src="images/patriots.jpg" alt="NE Patriots" style="width:100%"></a>
 		</div>
 		<div class="column">
+			<h2>Learn About the New York Sports Teams</h2>
 			<a href="ny-teams.php"><img src="images/jets2.jpg" alt="New York Jets" style="width:100%"></a>
 		</div>
 	</div>
