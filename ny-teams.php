@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
 	<title>Assignment 3: Website Smash | New York Sports Team | Team Seoul</title>
 	<link rel="stylesheet" href="css/styles.css">
 </head>

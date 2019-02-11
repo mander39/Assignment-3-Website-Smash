@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
 	<title>Assignment 3: Website Smash | Homepage | Team Seoul</title>
 	<link rel="stylesheet" href="css/styles.css">
 </head>
@@ -9,7 +10,6 @@
 		<h1>HOME PAGE</h1>
 	</header>
 		<?php include "inc/navigation.inc"; ?>
-	</nav>
 	<div class="row">
 		<div class="column">
 			<h2>Learn About Looter Shooter Video Games</h2>
