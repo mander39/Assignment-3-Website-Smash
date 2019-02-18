@@ -247,7 +247,7 @@ MOBILE STUFF
 	.navbar { background-size: 175px; }
 	.wrapper { display: inline-block; }
 	.box { margin-bottom: 20px; }
-	.wrapper2 { display: inline-block;  }
+	.wrapper2, .wrapper3 { display: inline-block;  }
 	figcaption { margin-bottom: 10px; }
 	img { 
 		width: 50%; 
