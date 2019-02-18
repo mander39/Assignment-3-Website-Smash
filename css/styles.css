@@ -203,12 +203,12 @@ img {
 
 
 @media  (max-width: 1090px) {
-	.nav ul{ margin-right: 100px !important;}
+	.nav ul{ margin-right: 100px;}
 	.navbar { background-position: 5%; }
 }
 
 @media  (max-width: 856px) {
-	.nav ul{ margin-right: 50px !important;}
+	.nav ul{ margin-right: 50px;}
 	.navbar { background-position: 0%; }
 }
 
@@ -226,7 +226,7 @@ img {
 }
 
 @media  (max-width: 610px) {
-	.nav ul{ margin-right: 5px !important;}
+	.nav ul{ margin-right: 5px;}
 	.nav ul li a {margin: 10px 0px 5px 10px;}
 }
 
@@ -237,7 +237,7 @@ img {
 @media  (max-width: 469px) {
 	.navbar { background-image: none; }
 	.nav { text-align: center; }
-	.nav ul{ margin-right: 20px !important;}
+	.nav ul{ margin-right: 20px;}
 }
 
 @media  (max-width: 416px) {
@@ -256,7 +256,7 @@ img {
 
 @media  (max-width: 376px) {
 	.nav { margin-left: -40px; }
-	.nav ul li a {margin: 5px 0px 0px 5px !important; }
+	.nav ul li a {margin: 5px 0px 0px 5px; }
 }
 
 @media  (max-width: 345px) {
