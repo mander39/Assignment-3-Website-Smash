@@ -28,6 +28,11 @@ The structure of United States Sports, from teams to divisions to leagues
 ## Choreography
 The pages go from highest in the structure to the base of the structure. It starts with the overall leagues, then goes to to divisions within the leagues, then finally to teams within a city. In the nav and on the homepage, this chroegraphy is left to right.
 
+## Changes to Original 
+1. 2/3 of the original pages were about sports, so I took sports.php from timbuktu to use for content, replacing the video game content
+1. Historical info was recoupled into a history section for each subdivision
+1. Added content about the Superbowl/NBA Finals/World Series so that every subsection had a championships section
+
 # Design 
 * Maintained component: the color scheme
 * Side-by-side design: on every page using css grid layout
