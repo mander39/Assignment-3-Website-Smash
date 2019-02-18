@@ -1,115 +1,8 @@
+/**********
+BASE STUFF
+**********/
+
 @import url('https://fonts.googleapis.com/css?family=Sarabun:800');
-
-.container {
-	font-size: 1.1em;
-	margin: 0 auto;
-	width: 90%;
-	max-width: 960px;
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-}
-
-.topspot{
-	background-color: white;
-	padding-top: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	margin-bottom: 20px;
-	border-radius: 5px;
-}
-
-.fph2 { font-size: 18px; }
-
-.wrapper {
-  margin-top: 20px;
-  justify-content: space-between;
-  display: grid;
-  grid-template-columns: 32% 32% 32%;
-  grid-gap: 10px;
-}
-
-.wrapper2 {
-  margin-top: 20px;
-  justify-content: space-between;
-  display: grid;
-  grid-template-columns: 70% 30%;
-  grid-gap: 10px;
-}
-
-.box {
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-}
-
-.box2 {
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-}
-
-.x {
-	padding-top: 0px;
-	grid-column: 1 / 1;
-    grid-row: 1 / 1;
-}
-
-.y {
-	margin: 0;
-  	padding: 0;
-  	height: 100%;
-  	width: 100%;
-  	display: table;
-	padding-top: 0px;
-	grid-column: 2 / 2;
-    grid-row: 1 / 1;
-}
-
-.endbox {
-	padding: 0px 20px 10px 20px;
-	border-top: 1px solid #236cdb;
-}
-
-.one{
-	grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-.two {
-	grid-column: 2 / 3;
-	grid-row: 1 / 2;
-}
-
-.tre {
-	grid-column: 3 / 4;
-    grid-row: 1 / 2;
-}
-
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-}
-
-.slant {
-	padding-top: 30px;
-	padding-bottom: 30px;
-	font-style: italic;
-	text-align: center;
-  	margin-top: 20px;
-}
-
-
-
-.homelinks {
-	color: black; 
-	text-decoration: none;
-}
-
-.homepage { text-align: center; }
 
 h1 { 
 	font-family: "Sarabun", sans-serif;
@@ -158,6 +51,146 @@ a {
 	text-decoration: none;
 }
 
+img {
+	width: 100%;
+}
+
+
+/**********
+END BASE STUFF
+**********/
+
+/**********
+CLASSY STUFF
+**********/
+
+.container {
+	font-size: 1.1em;
+	margin: 0 auto;
+	width: 90%;
+	max-width: 960px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.topspot{
+	background-color: white;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.fph2 { font-size: 18px; }
+
+.wrapper {
+  margin-top: 20px;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  grid-gap: 10px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.slant {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-style: italic;
+	text-align: center;
+  	margin-top: 20px;
+}
+
+.homelinks {
+	color: black; 
+	text-decoration: none;
+}
+
+.homepage { text-align: center; }
+
+.is-current {
+	border-bottom: 5px solid #f20e0e;
+	color:#f20e0e ;
+	font-weight: bold;
+}
+
+/**********
+END CLASSY STUFF
+**********/
+
+/**********
+GRID STUFF
+**********/
+
+.wrapper2, .wrapper3 {
+  margin-top: 20px;
+  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 60% 30%;
+  grid-gap: 10px;
+  grid-row-gap: 0px;
+}
+
+.box, .box2 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.x, .m {
+	border-radius: 0px;
+	padding-top: 0px;
+	grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.y, .n {
+	border-radius: 0px;
+	margin: 0;
+  	padding: 0;
+  	height: 100%;
+  	width: 100%;
+  	display: table;
+	padding-top: 0px;
+	grid-column: 2 / 2;
+    grid-row: 1 / 1;
+}
+
+.m {
+	border-top: 1px solid #236cdb;
+}
+
+.one{
+	grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.two {
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+}
+
+.tre {
+	grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+/**********
+END GRID STUFF
+**********/
+
+/**********
+NAV STUFF
+**********/
+
 .nav { 
 	text-align: right; 
 }
@@ -180,16 +213,6 @@ a {
 	border-bottom: 5px solid white;
 }
 
-img {
-	width: 100%;
-}
-
-.is-current {
-	border-bottom: 5px solid #f20e0e;
-	color:#f20e0e ;
-	font-weight: bold;
-}
-
 .navbar {
 	width: 100%;
 	background-color: #3f3d3d;
@@ -201,6 +224,13 @@ img {
 	background-position: 20%;
 }
 
+/**********
+END NAV STUFF
+**********/
+
+/**********
+MOBILE STUFF
+**********/
 
 @media  (max-width: 1090px) {
 	.nav ul{ margin-right: 100px;}
@@ -263,7 +293,9 @@ img {
 	.nav ul li { font-size: 11px; }
 }
 
-
+/**********
+END MOBILE STUFF
+**********/
 
 
 
