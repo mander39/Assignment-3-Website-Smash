@@ -9,6 +9,7 @@ The structure of United States Sports, from teams to divisions to leagues
   * Divisions field champions in the finals (ex - This year the Patriots represented the AFC East)
   * Teams can win championships 
 * Each ladder step of the US Sport hierarchy has associated history.
+* Each ladder step has teams, except for teams themselves, which have players
 * Each ladder step of the US Sport hierarchy has an example on the website.
   * The NFL, MLB, and NBA are examples of American pro leagues
   * The AFC is an example of a divison of one such league, and has its own subdivisions 
@@ -32,6 +33,7 @@ The pages go from highest in the structure to the base of the structure. It star
 1. 2/3 of the original pages were about sports, so I took sports.php from timbuktu to use for content, replacing the video game content
 1. Historical info was recoupled into a history section for each subdivision
 1. Added content about the Superbowl/NBA Finals/World Series so that every subsection had a championships section
+1. Added content about teams/players to better satisfy side by side layout requirement
 
 # Design 
 * Maintained component: the color scheme
