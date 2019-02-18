@@ -1,38 +1,41 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-	<title>Assignment 3: Website Smash | Homepage | Team Seoul</title>
-	<link rel="stylesheet" href="css/styles.css">
-</head>
-<body class="container">
-	<header>
-		<h1>HOME PAGE</h1>
-	</header>
-		<?php include "inc/navigation.inc"; ?>
-	<div class="row">
-		<div class="column">
-			<h2>Learn About Looter Shooter Video Games</h2>
-			<a href="games.php"><img src="images/destiny-logo.jpeg" alt="Destiny Logo" style="width:100%"></a>
-			<p>The three topics covered in this are video games of the genre dubbed "looter shooters", in which a player progresses primarily through shooting and killing enemies to... </p>
-			<a href="games.php">Click here or the above image to learn more about these games!</a>
-		</div>
-		<div class="column">
-			<h2>Learn About the AFC Divisions</h2>
-			<a href="afc.php"><img src="images/patriots.jpg" alt="NE Patriots" style="width:100%"></a>
-			<p>The 3 divisions below are all a part of the American Football Conference in the National Football League. These conferences all have 4 teams in it and...</p>
-			<a href="afc.php">Click here or the above image to learn more about the AFC!</a>
-		</div>
-		<div class="column">
-			<h2>Learn About the New York Sports Teams</h2>
-			<a href="ny-teams.php"><img src="images/jets2.jpg" alt="New York Jets" style="width:100%"></a>
-			<p>These teams are prominent New York sports teams. They all compete in the highest professional leagues for their respective sport. All three of these teams are...</p>
-			<a href="ny-teams.php">Click here or the above image to learn more about NY sports teams!</a>
-		</div>
-	</div>
-	<script src="//code.jquery.com/jquery.js"></script>
-		<script src="js/menu-highlighter.js"></script>
-	
-</body>
+<?php include 'inc/html-top.inc'; ?>
+<?php include 'inc/nav.inc'; ?>
 
-</html>
+<div class="topspot">
+<h1 class="homepage">STRUCTURE OF US PRO SPORTS</h1>
+<main>
+    <p>Pro Sports in the United States are all structured in a similar manner. At the base level, teams represent large cities, such as New York city or Los Angeles. These teams are typically organized into "divisions," such as the AFC and NFC in American Football. These have their roots in long travel distances common in US and Canadian sports; to cut down on travel, leagues are typically divided into geographic divisions and feature unbalanced schedules with teams playing more matches against opponents in the same division. The best teams in a given season reach a playoff tournament, and the winner of the playoffs is crowned champion of the league. American and Canadian sports leagues typically have such "playoff" systems. The championships of the three largest American leagues - the NFL, MLB, and NBA - are some of the largest sporting events in the world, and are televised to millions on a global scale.</p>
+</main>
+</div>
+<div class="wrapper">
+<section class="box one">
+    <a class="homelinks" href="usleagues.php">
+    <h2 class="fph2">US Sports Leagues</h2>
+    <img src="images/usa.png" alt="flag on nfl field">
+    <p>Major League Baseball, the National Football League, and the National Basketball Association are the three largest professional sports leagues in the United States. They are the three largest sports leagues in the world by revenue, and field players from all around the world. Every block of competition is broken into an annual season where one champion is crowned out of all competitors.</p>
+    </a>
+</section>
+<section class="box two">
+    <a class="homelinks" href="afcdivision.php">
+    <h2 class="fph2">AFC Divisions</h2>
+    <img src="images/patriots.jpg" alt="patriots logo">
+    <p>The 3 divisions below are all a part of the American Football Conference in the National Football League. These conferences all have 4 teams in it and have had a great deal of success when it comes to winning Superbowls. These divisions are all split up by location in the United States. The American Football Conference – Eastern Division or AFC East is one of the four divisions of the American Football Conference (AFC) in the National Football League (NFL).</p>
+    </a>
+</section>
+<section class="box tre">
+    <a class="homelinks" href="nysports.php">
+    <h2 class="fph2">New York Sports Teams</h2>
+    <img src="images/jets2.jpg" alt="jets logo">
+     <p>These teams are prominent New York sports teams. They all compete in the highest professional leagues for their respective sport. All three of these teams are over 50 years old and are among the most profitable teams in each of their respective sport. Although all of the teams represent New York, the Jets home stadium is location in Rutherford, New Jersey.</p>
+    </a>
+</section>
+</div>
+
+
+
+
+</div>
+
+<footer class= "slant">Team Michael - In-class Lab 3: Markdown and Information Architecture</footer>
+
+<?php include 'inc/html-bottom.inc'; ?>
