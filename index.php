@@ -36,6 +36,6 @@
 
 </div>
 
-<footer class= "slant">Team Michael - In-class Lab 3: Markdown and Information Architecture</footer>
+<footer class= "slant">Team Seoul - Lab 4: Information Architecture</footer>
 
 <?php include 'inc/html-bottom.inc'; ?>
