@@ -1,4 +1,6 @@
-<?php include 'inc/html-top.inc'; ?>
+<?php include 'inc/html-top01.inc'; ?>
+<title>US Sports Leagues</title>
+<?php include 'inc/html-top02.inc'; ?>
 <?php include 'inc/nav.inc'; ?>
 
 <div class="topspot">
